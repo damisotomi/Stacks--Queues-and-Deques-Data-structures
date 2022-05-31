@@ -5,3 +5,6 @@ After implementing the data structures, I decided to use the implementation to s
 
 Used the Queue data structure to solve a print queue problem
 Used the Deque data structue to create a palindrome checker function
+
+
+All linear abstract data types were implemented using pythons built in data structure; list
