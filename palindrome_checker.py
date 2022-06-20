@@ -12,11 +12,11 @@ from deque import Deque
 
 
 def palindrome_checker(string):
-
+    '''We would be building our data on the deque data structure which we have implemented already'''
     my_data = Deque()
 
     for character in string:
-        # Adds each character in the string to my Deque instance  using the add_front method becasue this method is a constant time opoeration
+        # Adds each character in the string to my Deque instance  using the add_front method becasue this method is a constant time operation
         my_data.add_front(character)
 
     while my_data.size() >= 2:  # check to see if we have less than two charactes left in the deque

@@ -15,6 +15,7 @@
 
 class Queue:
     def __init__(self) -> None:
+        '''we build our queue on a list'''
         self.items = []
 
     def enqueue(self, item):
