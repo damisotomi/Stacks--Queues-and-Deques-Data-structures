@@ -38,7 +38,7 @@ class Stack:
     def peek(self):
         '''To see the next item in the list that is to be removed
         This method returns the last item in the list which is the top of the stacks.
-        This method is done in constat time because indexing into a list is done in const time
+        This method is done in constant time because indexing into a list is done in const time
         '''
         if self.items:
             return(self.items[-1])
